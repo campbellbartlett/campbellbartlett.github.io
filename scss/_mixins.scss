@@ -1,0 +1,10 @@
+// Mixins
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+@mixin body-font {
+  font-family: 'Raleway'
+}
+@mixin heading-font {
+  font-family: 'Raleway'
+}
