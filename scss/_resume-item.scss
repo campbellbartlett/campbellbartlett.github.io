@@ -1,6 +1,7 @@
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
+  overflow: hidden;
   .resume-item {
     .resume-content {}
     .resume-date {
@@ -13,18 +14,12 @@ section.resume-section {
   display: none;
 }
 
-.undraw-image-small {
-  display: none;
-}
-
 @media(min-width: 992px) {
   .undraw-image {
+    display: unset;
     height: 100vh;
   }
   
-  .undraw-image-small {
-    width: 100%;
-  } 
 }
 
 @media (min-width: 768px) {

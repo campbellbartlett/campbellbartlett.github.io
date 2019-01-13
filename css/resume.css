@@ -154,6 +154,7 @@ p.lead {
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
+  overflow: hidden;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -164,16 +165,10 @@ section.resume-section .resume-item .resume-date {
   display: none;
 }
 
-.undraw-image-small {
-  display: none;
-}
-
 @media (min-width: 992px) {
   .undraw-image {
+    display: unset;
     height: 100vh;
-  }
-  .undraw-image-small {
-    width: 100%;
   }
 }
 
